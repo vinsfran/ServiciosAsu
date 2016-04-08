@@ -1,10 +1,7 @@
 package py.gov.mca.serviciosasu;
 
-import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -53,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         navigationDrawerLeft = new DrawerBuilder()
                 .withActivity(this)
                 .withToolbar(mToolbar)
-                .withAccountHeader(headerNavigationLeft)
+                .withHeader(R.layout.header_plain)
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
                     public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
