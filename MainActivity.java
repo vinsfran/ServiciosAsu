@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 .withName("Servicios ASU")
                 .withIcon(R.drawable.ic_asu_44)
                 .withIdentifier(100);
-//asdas
+
         AccountHeader headerNavigationLeft = new AccountHeaderBuilder()
                 .withActivity(this)
                 .withSavedInstance(savedInstanceState)
